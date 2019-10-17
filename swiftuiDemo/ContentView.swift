@@ -8,10 +8,12 @@
 
 import SwiftUI
 
+@available(iOS 13.0, *)
 struct ContentView: View {
     @State private var name: String = "Tim"
     @State var show = false
     @State var viewState = CGSize.zero
+    @available(iOS 13.0.0, *)
     var body: some View {
         ZStack{
             titleView()
@@ -65,6 +67,7 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    @available(iOS 13.0.0, *)
     static var previews: some View {
         ContentView()
     }
@@ -73,6 +76,7 @@ struct ContentView_Previews: PreviewProvider {
 
 
 struct mainCard: View {
+    @available(iOS 13.0.0, *)
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -95,6 +99,7 @@ struct mainCard: View {
 
 struct subCard: View {
     var text = "two"
+    @available(iOS 13.0.0, *)
     var body: some View {
         VStack{
             Text(text)
@@ -103,6 +108,7 @@ struct subCard: View {
 }
 
 struct titleView: View {
+    @available(iOS 13.0.0, *)
     var body: some View {
         VStack{
             Text("标题")
@@ -114,6 +120,7 @@ struct titleView: View {
 }
 
 struct bottomView: View {
+    @available(iOS 13.0.0, *)
     var body: some View {
         VStack {
             Rectangle()
