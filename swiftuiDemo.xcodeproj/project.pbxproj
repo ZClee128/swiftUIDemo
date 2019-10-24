@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847B5524235F36D1001E3014 /* Listview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B5523235F36D1001E3014 /* Listview.swift */; };
 		9B75024B234C79FD002D137D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75024A234C79FD002D137D /* AppDelegate.swift */; };
 		9B75024D234C79FD002D137D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75024C234C79FD002D137D /* SceneDelegate.swift */; };
 		9B75024F234C79FD002D137D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75024E234C79FD002D137D /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847B5523235F36D1001E3014 /* Listview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listview.swift; sourceTree = "<group>"; };
 		9B750247234C79FD002D137D /* swiftuiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B75024A234C79FD002D137D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B75024C234C79FD002D137D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				9B75024A234C79FD002D137D /* AppDelegate.swift */,
 				9B75024C234C79FD002D137D /* SceneDelegate.swift */,
 				9B75024E234C79FD002D137D /* ContentView.swift */,
+				847B5523235F36D1001E3014 /* Listview.swift */,
 				9B750250234C7A03002D137D /* Assets.xcassets */,
 				9B750255234C7A03002D137D /* LaunchScreen.storyboard */,
 				9B750258234C7A03002D137D /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847B5524235F36D1001E3014 /* Listview.swift in Sources */,
 				9B75024B234C79FD002D137D /* AppDelegate.swift in Sources */,
 				9B75024D234C79FD002D137D /* SceneDelegate.swift in Sources */,
 				9B75024F234C79FD002D137D /* ContentView.swift in Sources */,
