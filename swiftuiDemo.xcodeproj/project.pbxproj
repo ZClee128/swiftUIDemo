@@ -17,6 +17,10 @@
 		9B750262234C7A03002D137D /* swiftuiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B750261234C7A03002D137D /* swiftuiDemoTests.swift */; };
 		9B75026D234C7A03002D137D /* swiftuiDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75026C234C7A03002D137D /* swiftuiDemoUITests.swift */; };
 		9BC271332362955300BB26F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC271322362955300BB26F2 /* HomeView.swift */; };
+		9BC271352362DE0500BB26F2 /* pageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC271342362DE0500BB26F2 /* pageView.swift */; };
+		9BC271372362E11900BB26F2 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC271362362E11900BB26F2 /* FeatureCard.swift */; };
+		9BC271392362E50B00BB26F2 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC271382362E50A00BB26F2 /* PageViewController.swift */; };
+		9BC2713B2362E92200BB26F2 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2713A2362E92100BB26F2 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		9B75026C234C7A03002D137D /* swiftuiDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiDemoUITests.swift; sourceTree = "<group>"; };
 		9B75026E234C7A03002D137D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BC271322362955300BB26F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9BC271342362DE0500BB26F2 /* pageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageView.swift; sourceTree = "<group>"; };
+		9BC271362362E11900BB26F2 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		9BC271382362E50A00BB26F2 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		9BC2713A2362E92100BB26F2 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				9B75024E234C79FD002D137D /* ContentView.swift */,
 				847B5523235F36D1001E3014 /* Listview.swift */,
 				9BC271322362955300BB26F2 /* HomeView.swift */,
+				9BC271382362E50A00BB26F2 /* PageViewController.swift */,
+				9BC271342362DE0500BB26F2 /* pageView.swift */,
+				9BC2713A2362E92100BB26F2 /* PageControl.swift */,
+				9BC271362362E11900BB26F2 /* FeatureCard.swift */,
 				9B750250234C7A03002D137D /* Assets.xcassets */,
 				9B750255234C7A03002D137D /* LaunchScreen.storyboard */,
 				9B750258234C7A03002D137D /* Info.plist */,
@@ -275,9 +287,13 @@
 			files = (
 				847B5524235F36D1001E3014 /* Listview.swift in Sources */,
 				9B75024B234C79FD002D137D /* AppDelegate.swift in Sources */,
+				9BC2713B2362E92200BB26F2 /* PageControl.swift in Sources */,
+				9BC271372362E11900BB26F2 /* FeatureCard.swift in Sources */,
 				9B75024D234C79FD002D137D /* SceneDelegate.swift in Sources */,
+				9BC271352362DE0500BB26F2 /* pageView.swift in Sources */,
 				9BC271332362955300BB26F2 /* HomeView.swift in Sources */,
 				9B75024F234C79FD002D137D /* ContentView.swift in Sources */,
+				9BC271392362E50B00BB26F2 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
