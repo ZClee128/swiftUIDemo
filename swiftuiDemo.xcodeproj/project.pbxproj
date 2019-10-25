@@ -16,6 +16,7 @@
 		9B750257234C7A03002D137D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B750255234C7A03002D137D /* LaunchScreen.storyboard */; };
 		9B750262234C7A03002D137D /* swiftuiDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B750261234C7A03002D137D /* swiftuiDemoTests.swift */; };
 		9B75026D234C7A03002D137D /* swiftuiDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B75026C234C7A03002D137D /* swiftuiDemoUITests.swift */; };
+		9BC271332362955300BB26F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC271322362955300BB26F2 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9B750268234C7A03002D137D /* swiftuiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftuiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B75026C234C7A03002D137D /* swiftuiDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiDemoUITests.swift; sourceTree = "<group>"; };
 		9B75026E234C7A03002D137D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BC271322362955300BB26F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				9B75024C234C79FD002D137D /* SceneDelegate.swift */,
 				9B75024E234C79FD002D137D /* ContentView.swift */,
 				847B5523235F36D1001E3014 /* Listview.swift */,
+				9BC271322362955300BB26F2 /* HomeView.swift */,
 				9B750250234C7A03002D137D /* Assets.xcassets */,
 				9B750255234C7A03002D137D /* LaunchScreen.storyboard */,
 				9B750258234C7A03002D137D /* Info.plist */,
@@ -273,6 +276,7 @@
 				847B5524235F36D1001E3014 /* Listview.swift in Sources */,
 				9B75024B234C79FD002D137D /* AppDelegate.swift in Sources */,
 				9B75024D234C79FD002D137D /* SceneDelegate.swift in Sources */,
+				9BC271332362955300BB26F2 /* HomeView.swift in Sources */,
 				9B75024F234C79FD002D137D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
